@@ -79,7 +79,7 @@ for _, name in pairs(wanted_categories) do
 	end
 end
 
-if not mods[shared.K2] then
+if not mods[shared.K2] and not mods[shared.K2SO] then
 	table.append(aircraft_grid.equipment_categories, "armor")
 end
 
@@ -89,7 +89,7 @@ titan_supplier.energy_source.fuel_categories = {"chemical"}
 if mods[shared.AIND] then
   table.append(titan_supplier.energy_source.fuel_categories, "processed-chemical")
 end
-if mods[shared.K2] then
+if mods[shared.K2] or mods[shared.K2SO] then
 	table.extend(titan_supplier.energy_source.fuel_categories, {
 		"vehicle-fuel", "nuclear-fuel", "fusion-fuel", "antimatter-fuel",
 	})
