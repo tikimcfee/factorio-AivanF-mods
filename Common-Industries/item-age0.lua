@@ -27,6 +27,11 @@ add_item({
       prereq = "kr-stone-processing",
     },
     {
+      mod = bridge.mods.k2so,
+      name = "kr-sand",
+      prereq = "kr-stone-processing",
+    },
+    {
       mod = bridge.mods.bobores,
       name = "quartz",
       prereq = bridge.empty,
