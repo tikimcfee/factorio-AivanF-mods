@@ -55,6 +55,11 @@ add_item({
       prereq = bridge.empty,
     },
     {
+      mod = bridge.mods.k2so,
+      name = "kr-biomass",
+      prereq = bridge.empty,
+    },
+    {
       mod = bridge.mods.se,
       name = "se-specimen",
       prereq = "se-space-genetics-laboratory",
@@ -228,6 +233,14 @@ add_item({
       },
     },
     {
+      mod = bridge.mods.k2so,
+      ingredients = {
+        {bridge.item.optic_cable, 2},
+        {"kr-quartz", 1},
+        {"advanced-circuit", 1},
+      },
+    },
+    {
       mod = bridge.mods.ir3,
       name = "helium-laser",
       prereq = "laser-2",
@@ -348,6 +361,10 @@ add_item({
     {
       mod = bridge.mods.k2,
       ingredients = {{ "steel-plate", 10 }, { "copper-plate", 4 }, { "imersite-powder", 10 }},
+    },
+    {
+      mod = bridge.mods.k2so,
+      ingredients = {{ "steel-plate", 10 }, { "copper-plate", 4 }, { "kr-imersite-powder", 10 }},
     },
     {
       mod = bridge.mods.exind,
