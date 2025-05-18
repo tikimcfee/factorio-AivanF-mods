@@ -208,6 +208,15 @@ add_item({
       },
     },
     {
+      mod = bridge.mods.k2so,
+      prereq = "kr-imersium-processing",
+      ingredients = {
+        {"kr-imersium-plate", 2},
+        {"copper-cable", 10},
+        {"plastic-bar", 2},
+      },
+    },
+    {
       mod = bridge.mods.py_fus,
       name = "sc-wire",
       prereq = "magnetic-core",
@@ -342,6 +351,15 @@ add_item({
       ingredients = {
         {"low-density-structure", 10},
         {"imersium-plate", 10},
+        {"silicon", 10},
+      },
+    },
+    {
+      mod = bridge.mods.k2so,
+      prereq = "kr-imersium-processing",
+      ingredients = {
+        {"low-density-structure", 10},
+        {"kr-imersium-plate", 10},
         {"silicon", 10},
       },
     },
@@ -514,6 +532,11 @@ add_item({
       prereq = "kr-energy-control-unit",
     },
     {
+      mod = bridge.mods.k2so,
+      name = "kr-energy-control-unit",
+      prereq = "kr-energy-control-unit",
+    },
+    {
       mod = bridge.mods.se,
       prereq = bridge.item.nano_mat,
     },
@@ -635,6 +658,12 @@ add_item({
       prereq = "kr-antimatter-reactor",
     },
     {
+      mod = bridge.mods.k2so,
+      -- name = "kr-antimatter-reactor",
+      name = "kr-antimatter-reactor-equipment",
+      prereq = "kr-antimatter-reactor",
+    },
+    {
       mod = bridge.mods.bobequip,
       name = "fusion-reactor-equipment-4",
       prereq = "earnshaw-theorem",
@@ -661,6 +690,12 @@ add_item({
       mod = bridge.mods.k2,
       -- Or krastorio.recipes.changed_names["charged-antimatter-fuel-cell"] ?!
       name = "charged-antimatter-fuel-cell",
+      prereq = "kr-antimatter-reactor",
+    },
+    {
+      mod = bridge.mods.k2so,
+      -- Or krastorio.recipes.changed_names["charged-antimatter-fuel-cell"] ?!
+      name = "kr-charged-antimatter-fuel-cell",
       prereq = "kr-antimatter-reactor",
     },
     -- TODO: check out other mods!
