@@ -32,7 +32,7 @@ if mods[shared.SA] then
     {type="item", name="promethium-science-pack", amount=10},
   }
 
-elseif mods[shared.SE] and mods[shared.K2] then
+elseif mods[shared.SE] and (mods[shared.K2] or mods[shared.K2SO]) then
   ingredients = {  -- 8
     {type="item", name="military-science-pack", amount=10},
     -- {type="item", name="space-science-pack", amount=10},
@@ -63,7 +63,7 @@ elseif mods[shared.SE] then
     {type="item", name="se-deep-space-science-pack-1", amount=10},
   }
 
-elseif mods[shared.K2] then
+elseif (mods[shared.K2] or mods[shared.K2SO]) then
   ingredients = {  -- 6
     {type="item", name="production-science-pack", amount=10},
     {type="item", name="utility-science-pack", amount=10},
