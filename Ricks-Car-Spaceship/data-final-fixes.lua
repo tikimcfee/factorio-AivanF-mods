@@ -12,13 +12,13 @@ for _, name in pairs(wanted_categories) do
 	end
 end
 
-if not mods[shared.K2] then
+if not mods[shared.K2] and not mods[shared.K2SO] then
 	table.insert(space_cruiser_grid.equipment_categories, "armor")
 end
 
 local titan_supplier = data.raw.car[shared.space_cruiser]
 titan_supplier.energy_source.fuel_categories = {"nuclear"}
-if mods[shared.K2] then
+if mods[shared.K2] or mods[shared.K2SO] then
 	titan_supplier.energy_source.fuel_categories = {"nuclear-fuel"}
 	-- TODO: make only fusion for late-game mode/tier
   table.insert(titan_supplier.energy_source.fuel_categories, "fusion-fuel")
