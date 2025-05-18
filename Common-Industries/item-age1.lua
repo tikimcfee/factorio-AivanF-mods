@@ -32,6 +32,11 @@ add_item({
       prereq = "kr-stone-processing",
     },
     {
+      mod = bridge.mods.k2so,
+      name = "kr-glass",
+      prereq = "kr-stone-processing",
+    },
+    {
       mod = bridge.mods.ir3,
       name = "glass",
       prereq = "ir-glass-milestone",
