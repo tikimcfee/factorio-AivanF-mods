@@ -77,6 +77,17 @@ add_item({
         {bridge.item.nano_mat, 8},
       },
     },
+    {
+      mod = bridge.mods.k2so,
+      prereq = "kr-matter-processing",
+      -- name = "matter-stabilizer",
+      ingredients = {
+        {"kr-matter-stabilizer", 3},
+        {bridge.item.he_emitter, 3},
+        {bridge.item.quantum_chip, 1},
+        {bridge.item.nano_mat, 8},
+      },
+    },
   },
 })
 
