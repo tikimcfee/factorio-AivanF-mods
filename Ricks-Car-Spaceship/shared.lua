@@ -8,5 +8,6 @@ shared.space_cruiser = shared.mod_prefix.."cruiser"
 shared.AIND = "aai-industry"
 shared.SE = "space-exploration"
 shared.K2 = "Krastorio2"
+shared.K2SO = "Krastorio2-spaced-out"
 
 return shared
