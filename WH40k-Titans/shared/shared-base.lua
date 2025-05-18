@@ -148,5 +148,6 @@ shared.SA   = "space-age"
 shared.AIND = "aai-industry"
 shared.SE   = "space-exploration"
 shared.K2   = "Krastorio2"
+shared.K2SO = "Krastorio2-spaced-out"
 
 return shared
