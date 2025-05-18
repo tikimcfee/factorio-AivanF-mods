@@ -62,7 +62,7 @@ bridge.mods_list = {
   { short_name = "aaind", name = "aai-industry" },
   -- K2    https://mods.factorio.com/user/raiguard
   { short_name = "k2",    name = "Krastorio2" },
-  { short_name = "k2so",    name = "Krastorio2-spaced-out" },
+  { short_name = "k2so",  name = "Krastorio2-spaced-out" },
   -- 248k  https://mods.factorio.com/mod/248k
   { short_name = "_248k", name = "248k" },
 
